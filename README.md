@@ -20,9 +20,7 @@ Este projeto tem seu desenvolvimento guiado pela instituição educacional <a hr
 
 ## **:dart: OBJETIVO**
 
-Este projeto tem como objetivo principal conectar estudantes que querem receber aulas online, a professores que querem lecionar
-
-Os estudantes ou 
+Este projeto tem como objetivo principal conectar estudantes que querem receber aulas online, a professores que querem lecionar. 
 
 ## **:computer: TECNOLOGIAS**
 
