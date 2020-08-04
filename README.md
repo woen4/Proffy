@@ -20,22 +20,16 @@ Este projeto tem seu desenvolvimento guiado pela instituição educacional <a hr
 
 ## **:dart: OBJETIVO**
 
-<<<<<<< HEAD
-Este projeto tem como objetivo principal conectar estudantes que querem receber aulas online, a professores que querem lecionar.
-=======
-Este projeto tem como objetivo principal conectar estudantes que querem receber aulas online, a professores que querem lecionar. 
->>>>>>> 894805f95368044fcd26b0badaa8182bb8fd46d7
+Este projeto tem como objetivo principal conectar estudantes que querem receber aulas online, a professores que querem lecionar
+
+Os estudantes ou 
 
 ## **:computer: TECNOLOGIAS**
 
 #### **Web** ([React][react] + [TypeScript][typescript])
 
-<<<<<<< HEAD
-- **[React Router Dom][react_router_dom]**
-=======
   - **[React Router Dom][react_router_dom]**
 
->>>>>>> 894805f95368044fcd26b0badaa8182bb8fd46d7
 
 ## **:game_die: COMO TESTAR**
 
@@ -55,11 +49,7 @@ Este projeto tem como objetivo principal conectar estudantes que querem receber 
 # 5. Pronto!
 ```
 
-<<<<<<< HEAD
-## :star: Créditos
-=======
 ## :star: Créditos 
->>>>>>> 894805f95368044fcd26b0badaa8182bb8fd46d7
 
 <h4> 
   
@@ -69,38 +59,6 @@ Este projeto tem como objetivo principal conectar estudantes que querem receber 
   
 <h4>
 
-<<<<<<< HEAD
-<!-- Technologies -->
-
-[react]: https://reactjs.org/
-[typescript]: https://www.typescriptlang.org/
-[node]: https://nodejs.org/en/
-[leaflet]: https://react-leaflet.js.org/en/
-[react_native]: http://www.reactnative.com/
-[express]: https://expressjs.com/
-[cors]: https://expressjs.com/en/resources/middleware/cors.html
-[knex]: http://knexjs.org/
-[sqlite3]: https://github.com/mapbox/node-sqlite3
-[tsnode]: https://github.com/TypeStrong/ts-node
-[react_leaflet]: https://react-leaflet.js.org/
-[react_router_dom]: https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom
-[react_icons]: https://react-icons.github.io/react-icons/
-[axios]: https://github.com/axios/axios
-[dotenv]: https://github.com/motdotla/dotenv
-[expo]: https://expo.io/
-[expo_google_fonts]: https://github.com/expo/google-fonts
-[react_navigation]: https://reactnavigation.org/
-[react_native_maps]: https://github.com/react-native-community/react-native-maps
-[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
-[react_native_svg]: https://github.com/react-native-community/react-native-svg
-[expo_location]: https://docs.expo.io/versions/latest/sdk/location/
-[expo_mail_composer]: https://docs.expo.io/versions/latest/sdk/mail-composer/
-[font_awesome]: https://fontawesome.com/
-[multer]: https://github.com/expressjs/multer
-[celebrate]: https://github.com/arb/celebrate
-[joi]: https://github.com/hapijs/joi
-[react_dropzone]: https://github.com/react-dropzone/react-dropzone
-=======
 
 <!-- Technologies -->
 
@@ -160,19 +118,10 @@ Este projeto tem como objetivo principal conectar estudantes que querem receber 
 
 [react_dropzone]: https://github.com/react-dropzone/react-dropzone
 
->>>>>>> 894805f95368044fcd26b0badaa8182bb8fd46d7
 [yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
 
 <!-- Badges -->
 
-<<<<<<< HEAD
-[badge_web_react]: https://img.shields.io/badge/web-react-blue
-[badge_mobile_react_native]: https://img.shields.io/badge/mobile-react%20native-blueviolet
-[badge_expo]: https://img.shields.io/badge/mobile-expo-black
-[badge_server_nodejs]: https://img.shields.io/badge/server-nodejs-important
-[badge_stars]: https://img.shields.io/github/stars/Woen8/Proffy.?style=social
-[badge_typescript]: https://badges.frapsoft.com/typescript/code/typescript.png?v=101
-=======
 
 [BADGE_WEB_REACT]: https://img.shields.io/badge/web-react-blue
 
@@ -185,4 +134,3 @@ Este projeto tem como objetivo principal conectar estudantes que querem receber 
 [BADGE_STARS]: https://img.shields.io/github/stars/Woen8/Proffy.?style=social
 
 [BADGE_TYPESCRIPT]: https://badges.frapsoft.com/typescript/code/typescript.png?v=101
->>>>>>> 894805f95368044fcd26b0badaa8182bb8fd46d7
