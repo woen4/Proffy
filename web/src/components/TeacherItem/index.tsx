@@ -1,39 +1,49 @@
 import React from "react";
 import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
 import "./styles.css";
+import api from "../../services/api";
 
-const TeacherItem = () => {
+interface TeacherItemProps {
+  teacher: {
+    id: number;
+    subject: string;
+    cost: number;
+    user_id: number;
+    name: string;
+    avatar: string;
+    whatsapp: string;
+    bio: string;
+  };
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+  async function createNewConnection() {
+    api.post("/connections", { user_id: teacher.id });
+  }
   return (
     <article className="teacher-item">
       <header>
-        <img
-          src="data:image/jpeg;base64,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"
-          alt=""
-        />
+        <img src={teacher.avatar} alt="" />
         <div>
-          <strong>Terry Crews</strong>
-          <span>Teatro</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject} </span>
         </div>
       </header>
-      <p>
-        Lorem ipsum dolor sit amet, <br />
-        <br />
-        consectetur adipiscing elit. Phasellus mattis porttitor mauris, non
-        tincidunt felis fringilla pretium. Quisque sed risus sit amet dui
-        suscipit suscipit id a diam. Vivamus vulputate aliquet enim nec
-        pharetra. Cras erat nisl, imperdiet id pretium eu, luctus sit amet
-        sapien. Nunc egestas ipsum dolor, non convallis metus elementum nec.
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
           Preço/hora
-          <strong>R$ 80,00</strong>
+          <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a
+          target="blank"
+          onClick={createNewConnection}
+          href={`https://wa.me/${teacher.whatsapp}`}
+        >
           <img src={whatsappIcon} alt="Whatsapp" />
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
