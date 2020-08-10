@@ -12,9 +12,9 @@
 
 <h3 align="center">
 
-📚 Projeto em desenvolvimento e de código aberto que conecta estudantes e professores.
+📚 Projeto de código aberto que conecta estudantes e professores.
 
-Este projeto tem seu desenvolvimento guiado pela instituição educacional <a href="www.rocketseat.com">**RocketSeat**<a>, na 2ª Edição do evento Next Level Week, promovido por tal instituição. Projeto onde será utilizada as tecnologias <a href="https://nodejs.org/en/">**Node**<a>, <a href="https://www.typescriptlang.org">**TypeScript**<a>, <a href="https://reactjs.org">**React**<a> e <a href="https://reactnative.dev">**React Native**<a>
+Este projeto teve seu desenvolvimento guiado pela instituição educacional <a href="www.rocketseat.com">**RocketSeat**<a>, na 2ª Edição do evento Next Level Week, promovido por tal instituição. Projeto onde foi utilizada as tecnologias <a href="https://nodejs.org/en/">**Node**<a>, <a href="https://www.typescriptlang.org">**TypeScript**<a>, <a href="https://reactjs.org">**React**<a> e <a href="https://reactnative.dev">**React Native**<a>
 
 </h3>
 
@@ -22,13 +22,13 @@ Este projeto tem seu desenvolvimento guiado pela instituição educacional <a hr
 
 Este projeto tem como objetivo principal conectar estudantes que querem receber aulas online, a professores que querem lecionar
 
-Os estudantes ou 
-
 ## **:computer: TECNOLOGIAS**
 
-#### **Web** ([React][react] + [TypeScript][typescript])
-
-  - **[React Router Dom][react_router_dom]**
+#### **Web** ([React][react])
+  
+#### **Mobile** ([React Native][react] + [Expo][typescript])
+  
+#### **Server** ([Node][react])
 
 
 ## **:game_die: COMO TESTAR**
@@ -38,13 +38,15 @@ Os estudantes ou
 - Tutorial feito pela RocketSeat: https://www.notion.so/Configurando-Ambiente-NLW-98a471ad3cb6448284b8ceed31c45767
 
 # 2. Abra o diretório do repositório:
-- Abra o terminal no diretório do repositório baixado
 
 # 3. Execute este comando para que o Node.js instale seus módulos:
-- yarn install
+- yarn install (Nas pastas web e server)
 
-# 4. E por fim, execute o comando:
+# 4. Para o servidor e aplicação web execute:
 - yarn start
+
+# 4. Para a aplicação mobile execute:
+- expo start
 
 # 5. Pronto!
 ```
@@ -62,66 +64,6 @@ Os estudantes ou
 Autoria de Kaio Woen 👋🏽
 
 
-<!-- Technologies -->
-
-[react]: https://reactjs.org/
-
-[typescript]: https://www.typescriptlang.org/
-
-[node]: https://nodejs.org/en/
-
-[leaflet]: https://react-leaflet.js.org/en/
-
-[react_native]: http://www.reactnative.com/
-
-[express]: https://expressjs.com/
-
-[cors]: https://expressjs.com/en/resources/middleware/cors.html
-
-[knex]: http://knexjs.org/
-
-[sqlite3]: https://github.com/mapbox/node-sqlite3
-
-[tsnode]: https://github.com/TypeStrong/ts-node
-
-[react_leaflet]: https://react-leaflet.js.org/
-
-[react_router_dom]: https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom
-
-[react_icons]: https://react-icons.github.io/react-icons/
-
-[axios]: https://github.com/axios/axios
-
-[dotenv]: https://github.com/motdotla/dotenv
-
-[expo]: https://expo.io/
-
-[expo_google_fonts]: https://github.com/expo/google-fonts
-
-[react_navigation]: https://reactnavigation.org/
-
-[react_native_maps]: https://github.com/react-native-community/react-native-maps
-
-[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
-
-[react_native_svg]: https://github.com/react-native-community/react-native-svg
-
-[expo_location]: https://docs.expo.io/versions/latest/sdk/location/
-
-[expo_mail_composer]: https://docs.expo.io/versions/latest/sdk/mail-composer/
-
-[font_awesome]: https://fontawesome.com/
-
-[multer]: https://github.com/expressjs/multer
-
-[celebrate]: https://github.com/arb/celebrate
-
-[joi]: https://github.com/hapijs/joi
-
-[react_dropzone]: https://github.com/react-dropzone/react-dropzone
-
-[yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
-
 <!-- Badges -->
 
 
@@ -135,4 +77,4 @@ Autoria de Kaio Woen 👋🏽
 
 [BADGE_STARS]: https://img.shields.io/github/stars/Woen8/Proffy.?style=social
 
-[BADGE_TYPESCRIPT]: https://badges.frapsoft.com/typescript/code/typescript.png?v=101
+[BADGE_TYPESCRIPT]: https://img.shields.io/badge/using-typescript-blue
